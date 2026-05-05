@@ -52,7 +52,7 @@ for numbers in my_numbers[:4]:
         print(f"\t{numbers}, is not my number")
     else:
         print(f"\n\t{numbers}, this is my number!")
-#Thirs I want use "or" and "and" in if statement
+#Third I want use "or" and "and" in if statement
 print("\nlets checking numbers without loop!")
 if 21 in my_numbers and 22 in my_numbers:
     print("\t21 and 22 are BOTH in my list")
