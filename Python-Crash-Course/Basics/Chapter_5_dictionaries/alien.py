@@ -7,7 +7,7 @@ print(alien_0['points'])
 new_points = alien_0['points']
 print(f"You just earned {new_points} points!")
 
-#second I want adding new key-value pairs in my dictionarie
+#second I want adding new key-value pairs in my dictionary 
 
 print(alien_0)
 alien_0['x_position'] = 0
