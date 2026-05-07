@@ -30,9 +30,16 @@ for name in sorted(favorite_languages.keys()):
     if name in friends:
         language = favorite_languages[name].title()
         print(f"\t{name.title()}, I see you love {language}!")
-        
+
 # added set() method 
 
 print("The following languages have been mentioned:")
 for language in set(favorite_languages.values()):
     print(language.title())
+
+members = ['jen', 'edward', 'shayan', 'kimi']
+for member in sorted(members):
+    if member in favorite_languages:
+        print(f"Hi {member.title()}, thank you")
+    else:
+        print(f"Hi, {member.title()}, please vote for your favorite language!")
