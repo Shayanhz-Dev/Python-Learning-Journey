@@ -37,6 +37,8 @@ print("The following languages have been mentioned:")
 for language in set(favorite_languages.values()):
     print(language.title())
 
+# added new list of member and some new practice
+
 members = ['jen', 'edward', 'shayan', 'kimi']
 for member in sorted(members):
     if member in favorite_languages:
