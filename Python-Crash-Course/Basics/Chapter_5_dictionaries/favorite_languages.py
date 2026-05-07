@@ -20,3 +20,13 @@ for name in favorite_languages.keys():
 for language in favorite_languages.values():
     print(language.title())
 
+# updated code...
+# I create a list
+# Using if statement for checking dictionary and list 
+
+friends = ['phil', 'sarah']
+for name in favorite_languages.keys():
+    print(f"HI, {name.title()}")
+    if name in friends:
+        language = favorite_languages[name].title()
+        print(f"\t{name.title()}, I see you love {language}!")
