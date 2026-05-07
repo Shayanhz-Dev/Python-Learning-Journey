@@ -70,7 +70,7 @@ Here is a breakdown of the completed modules and the concepts mastered in each:
 To run any of the scripts locally, simply clone the repository and execute the Python files from your terminal:
 ```bash
 # Clone the repository
-https://github.com/Shayanhz-Dev/Python-Learning-Journey/tree/main/Python-Crash-Course
+https://github.com/Shayanhz-Dev/Python-Learning-Journey.git
 
 # Navigate to a chapter directory
 cd chapter_5_dictionaries
