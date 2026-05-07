@@ -11,13 +11,13 @@ print(f"sarah's favorite language is {language}.")
 # 1. for-loop for dictionary
 # 2. return key-value with items() method
 
-for name, language in favorite_languages.items():
+for name, language in sorted(favorite_languages.items()):
     print(f"{name.title()}'s favorite language is {language.title()}")
 
-for name in favorite_languages.keys():
+for name in sorted(favorite_languages.keys()):
     print(name.title())
 
-for language in favorite_languages.values():
+for language in sorted(favorite_languages.values()):
     print(language.title())
 
 # updated code...
@@ -25,7 +25,7 @@ for language in favorite_languages.values():
 # Using if statement for checking dictionary and list 
 
 friends = ['phil', 'sarah']
-for name in favorite_languages.keys():
+for name in sorted(favorite_languages.keys()):
     print(f"HI, {name.title()}")
     if name in friends:
         language = favorite_languages[name].title()
