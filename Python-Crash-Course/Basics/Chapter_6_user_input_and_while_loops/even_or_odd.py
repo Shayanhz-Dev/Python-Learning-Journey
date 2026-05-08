@@ -1,0 +1,12 @@
+# Hi I'm shayan and today I want to practice input users value 
+# 1. Create a variable 
+# 2. Change string to numrical with int()
+# 3. Use if-statement to checking number is even or odd
+
+number = input("Enter a number, and I'll tell you if it's even or odd: ")
+number = int(number)
+
+if number % 2 == 0:
+    print(f"\nThe number {number} is even")
+else:
+    print(f"\nThe number {number} is odd")
