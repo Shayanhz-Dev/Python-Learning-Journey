@@ -4,11 +4,26 @@
 # 3. Poping list values and assign in new variable
 # 4. Appending poping items to empty list
 # 5. Use for-loop for print message 
+# Modified code:
+# 1. Add pastrami value in the list
+# 2. Use while-loop for checking 'pastrami' in the list
+# 3. use .remove() methods for remove 'pastrami' from list
 
+sandwich_order = [
+    'Hamburger',
+    'Chicken',
+    'Roast Beef',
+    'pastrami', 
+    'pastrami',
+    'pastrami'
+]
 
-sandwich_order = ['Hamburger', 'Cheeseburger', 'Chicken', 'Roast Beef']
 finished_sandwich = []
 
+print("Sorry, we have run out of pastrami.")
+      
+while 'pastrami' in sandwich_order:
+    sandwich_order.remove("pastrami")
 while sandwich_order:
     current_sandwich = sandwich_order.pop(0)
     print(f"I made your {current_sandwich} sandwich")
