@@ -2,11 +2,13 @@
 # This is my first practice about functions
 # 1. Create function
 # 2. Print a message
-# 3. Call function
+# 3. Call function ###outdate###
 
-
-def greet_user():
+# Modified code:
+# 1. Define function with a 'username' parameter
+# 2. Call function and pass "shayan" as an argument
+def greet_user(username):
     """Display a simple greeting."""
-    print("Hello, New Chapter")
+    print(f"Hello, {username.title()}!")
 
-greet_user()
+greet_user("shayan")
