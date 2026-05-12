@@ -2,7 +2,7 @@
 # 1. Create function with 'TWO' parameters 
 # 2. Print messages
 # 3. Call function with 2 arguments
-# modified code :
+# Modified code :
 # Multiple Function Calls
 
 def describe_pet(animal_type, pet_name):
@@ -13,3 +13,8 @@ def describe_pet(animal_type, pet_name):
 
 describe_pet("cat", "panny")
 describe_pet("dog", "raxar")
+
+# Modified code
+# Use Keyword Arguments
+
+describe_pet(animal_type='hamster', pet_name='harry')
