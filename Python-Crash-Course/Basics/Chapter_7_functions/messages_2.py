@@ -1,5 +1,5 @@
 # Hi I'm shayan and today I want to practice function
-# 1. Create first function for print every list messages (use if_statement)
+# 1. Create first function for print every list messages (use for-loops)
 # 2. Create second function for print every messages and move first list items to second list
 # 3. Create first list with values and second list empty
 # 4. Positional Call functions
@@ -27,7 +27,7 @@ messages_list = [
 sent_messages = []
 
 show_messages(messages_list)
-send_messages(messages_list, sent_messages)
+send_messages(messages_list[:], sent_messages)
 
 print(messages_list)
 print(sent_messages)
