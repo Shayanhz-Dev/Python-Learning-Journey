@@ -13,4 +13,9 @@ def build_profile(first, last, **user_info):
 user_profile = build_profile('albert', 'einstein',
                              location='princeton',
                              field='phtsics')
+my_profile = build_profile('shayan', 'hasanzade',
+                           location= 'amol',
+                           field= 'sadaf',
+                           age= 23)
 print(user_profile)
+print(my_profile)
