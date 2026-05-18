@@ -4,6 +4,8 @@
 # 3. Create a method for make a formatted name
 # 4. Create a method for odometer 
 
+"""A class that can be used to represent a car."""
+
 class Car:
     """A simple attempt to represent a car."""
 
