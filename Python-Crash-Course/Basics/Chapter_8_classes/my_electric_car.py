@@ -1,3 +1,6 @@
+# Hi I'm shayan and today I want to practice classes
+# Import single class
+
 from electric_car_class import ElectricCar
 
 my_leaf = ElectricCar('nissan', 'leaf', 2024)
