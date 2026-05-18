@@ -2,7 +2,8 @@
 # 1. Create a Class
 # 2. Create a method for construction class attribute 
 # 3. Create a method for make a formatted name
-# 4. Create a method for odometer 
+# 4. Create a Class for battery 
+# 5. Create a child class for ElectricCar
 
 class Car:
     """A simple attempt to represent a car."""
