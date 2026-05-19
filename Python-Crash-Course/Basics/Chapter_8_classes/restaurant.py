@@ -14,7 +14,7 @@ class Restaurant:
         self.status = status
 
     def describe_restaurant(self):
-        """Formatted restaurant information"""
+        """Display a summary of the restaurant's information."""
         information = f"{self.restaurant_name.title()} is a {self.cuisine_type.upper()} restaurant"
         print(information)
 
