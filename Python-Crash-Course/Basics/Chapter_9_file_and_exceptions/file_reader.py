@@ -3,7 +3,7 @@
 
 from pathlib import Path
 
-path = Path("E:/python/Python-Learning-Journey/Python-Crash-Course/Basics/Chapter_9_file_and_exceptions/pi_digits.txt")
+path = Path(__file__).parent / "pi_digits.txt"
 contents = path.read_text()
 lines = contents.splitlines()
 pi_string = ''
