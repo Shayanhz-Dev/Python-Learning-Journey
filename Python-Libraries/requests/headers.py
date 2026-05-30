@@ -5,7 +5,7 @@
 
 import requests
 
-url = "https://httpbin.org/headers"
+url = "https://jsonplaceholder.typicode.com/users/1"
 
 headers = {
     "User-Agent":

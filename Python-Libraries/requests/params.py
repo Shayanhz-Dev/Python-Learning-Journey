@@ -5,7 +5,7 @@
 
 import requests
 
-url = "https://httpbin.org/get"
+url = "https://jsonplaceholder.typicode.com/users/1"
 params = {
     "search": "laptop",
     "page": 2,
@@ -21,6 +21,7 @@ try:
 
     print(response.url)
     print(data)
-    print(data['args'])
+    print("=========")
+    print(data['email'])
 except requests.RequestException as error:
     print(error)
