@@ -24,8 +24,8 @@ try:
         json=payload,
         timeout=10
     )
-    data = response.json()
     response.raise_for_status()
+    data = response.json()
     print(data)
 
 except requests.RequestException as error:
