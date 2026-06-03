@@ -11,6 +11,6 @@ path = "E:/Python/Python-Learning-Journey/Python-Libraries/os/checking.py"
 print(os.path.basename(path))
 print(os.path.dirname(path))
 
-name , ext = os.path.splitext(os.path.basename(path))
+name ,ext = os.path.splitext(os.path.basename(path))
 print(name)
 print(ext)
