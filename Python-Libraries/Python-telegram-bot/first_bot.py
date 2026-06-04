@@ -18,5 +18,4 @@ TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_FALLBACK_TOKEN")
 app = Application.builder().token(TOKEN).build()
 
 app.add_handler(CommandHandler("start", start))
-
 app.run_polling()
