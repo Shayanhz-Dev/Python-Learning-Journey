@@ -6,3 +6,4 @@ Python-Crash-Course/Basics/Chapter_9_file_and_exceptions/learning_python.txt
 Python-Libraries/Python-telegram-bot/.env
 Python-Libraries/Python-telegram-bot/data.xlsx
 *.json
+*.pyc
