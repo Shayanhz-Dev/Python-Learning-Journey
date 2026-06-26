@@ -6,9 +6,9 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/hi")
-def great():
-    return f"Hello?World?"
+@app.get("/hi/{who}")
+def great(who):
+    return f"Hello? {who}"
 
 if __name__ == "__main__" :
     import uvicorn
