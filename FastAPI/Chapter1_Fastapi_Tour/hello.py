@@ -6,9 +6,9 @@ from fastapi import FastAPI, Header
 
 app = FastAPI() 
 
-@app.post("/hi") # Decorator
-def great(who:str = Header()): 
-    return f"Hello? {who}?"
+@app.get("/agent") # Decorator
+def get_agent(user_agent:str = Header()): 
+    return user_agent
 
 if __name__ == "__main__" :
     import uvicorn
