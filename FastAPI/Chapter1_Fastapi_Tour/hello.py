@@ -6,7 +6,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/hi/{who}")
+@app.get("/hi")
 def great(who):
     return f"Hello? {who}"
 
