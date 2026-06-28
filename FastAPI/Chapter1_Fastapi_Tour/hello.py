@@ -3,6 +3,7 @@
 ###################################
 
 from fastapi import FastAPI, Header
+from fastapi import Response
 
 app = FastAPI() 
 
@@ -13,6 +14,11 @@ def get_agent(user_agent:str = Header()):
 @app.get("/happy", status_code=200)
 def happy():
     return ":)"
+
+@app.get("/header/{name}/{value}")
+def header(name: str, value: str, response: Response):
+    response.headers[name] = value
+    return "normal body"
 
 if __name__ == "__main__" :
     import uvicorn
